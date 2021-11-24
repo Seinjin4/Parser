@@ -1,0 +1,2516 @@
+
+
+%*********************************************************************
+%                                                                    *
+%     Program  :   PDIF-OUT VERSION 4.50                             *
+%     Date     :   Feb 08 1994                                       *
+%     Time     :   02:00:26 PM                                       *
+%     File In  :   M127.SCH                                          *
+%     File Out :   STRM01.PVZ                                        *
+%     Format   :   P-CAD DATABASE INTERCHANGE FORMAT                 *
+%                                                                    *
+%*********************************************************************
+
+
+{COMPONENT M127.SCH
+
+
+ {ENVIRONMENT
+  {PDIFvrev 4.00}
+  {Program "PDIF-OUT Version 4.50  "}
+  {DBtype "Schematic"}
+  {DBvrev 1.04}
+  {DBtime "Jun. 23, 1993        11:15 p.m.         "}
+  {DBunit "CMM"}
+  {DBgrid 10}
+  {Lyrstr "WIRES" 1 "BUS" 1 "GATE" 2 "IEEE" 2 "PINFUN" 3 "PINNUM" 1 
+          "PINNAM" 6 "PINCON" 4 "REFDES" 2 "ATTR" 6 "SDOT" 1 
+          "DEVICE" 5 "OUTLIN" 5 "ATTR2" 6 "NOTES" 6 "NETNAM" 4 
+          "CMPNAM" 5 "BORDER" 5 "$$NULL" 0}
+ }
+
+ {USER
+  {VIEW
+   {Mode DETL}
+   {Vw 1150 6300 4 2 2076 2039 2624 2431 9 536 863 3824 3217 
+       10 401 2756 7473 8436}
+   {Lv 17 2 2 1 2 2 2 1 1 2 2 1 1 1 2 2 2 2 0}
+   {Gs 50 50}
+  }
+ }
+
+ {DISPLAY
+  [Ly "CMPNAM"]
+  [Ls "SOLID"][Wd 0]
+  [Ts 62][Tj "CC"][Tr 0][Tm "N"]
+ }
+
+ {SYMBOL
+  {PIN_DEF
+  }
+
+  {PIC
+  }
+
+  {ATR
+   {IN
+    {Org -32767 -32767}
+    {Ty 255}
+   }
+  }
+ }
+
+ {DETAIL
+  {ANNOTATE
+  }
+
+  {NET_DEF
+   {N IN-LOW
+    {DG
+     [Ly "WIRES"]
+     [Ls "SOLID"][Wd 0]
+     [Ts 62][Tj "CC"][Tr 0][Tm "N"]
+     {W 850 6100 850 6300 975 6300}
+     {W 750 6100 850 6100 975 6100}
+     {V 850 6100 15}
+     [Ly "NETNAM"]
+     [Ts 37][Tj "LB"]
+     {Nn 675 6150}
+    }
+    {ATR
+     {IN
+      {Un "Y"}
+     }
+    }
+   }
+   {N UN000003
+    {DG
+     [Ly "WIRES"]
+     [Ls "SOLID"][Wd 0]
+     [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+     {W 1450 6100 1450 6300 1325 6300}
+     {W 1325 6100 1450 6100 2800 6100 2800 5675 2875 5675}
+     {V 1450 6100 15}
+    }
+   }
+   {N IN-HIGHT
+    {DG
+     [Ly "WIRES"]
+     [Ls "SOLID"][Wd 0]
+     [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+     {W 1125 5600 1000 5600}
+     {W 1125 5725 1125 5600 1125 5525 1125 5475}
+     {V 1125 5600 15}
+     [Ly "NETNAM"]
+     {Nn 900 5650}
+    }
+    {ATR
+     {IN
+      {Un "Y"}
+     }
+    }
+   }
+   {N UN000005
+    {DG
+     [Ly "WIRES"]
+     [Ls "SOLID"][Wd 0]
+     [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+     {W 1475 5725 1525 5725}
+    }
+   }
+   {N UN000006
+    {DG
+     [Ly "WIRES"]
+     [Ls "SOLID"][Wd 0]
+     [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+     {W 1475 5475 1525 5475}
+    }
+   }
+   {N UN000007
+    {DG
+     [Ly "WIRES"]
+     [Ls "SOLID"][Wd 0]
+     [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+     {V 2100 5725 15}
+     {V 2100 5475 15}
+     {W 2100 5450 2100 5475}
+     {W 3425 5825 3525 5825 3525 6025 2100 6025 2100 5725 2100 5475
+        1875 5475}
+     {W 1875 5725 2100 5725}
+    }
+   }
+   {N UN000009
+    {DG
+     [Ly "WIRES"]
+     [Ls "SOLID"][Wd 0]
+     [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+     {V 1850 5075 15}
+     {V 2300 5075 15}
+     {V 2575 5075 15}
+     {V 2100 5075 15}
+     {W 3425 5750 3525 5750 3525 5075 2575 5075 2300 5075 2100 5075
+        1850 5075 1775 5075}
+     {W 1700 5600 1850 5600 1850 5075}
+     {W 2100 5100 2100 5075}
+     {W 2575 5075 2575 4925}
+     {W 2300 5075 2300 5125 2300 5150}
+    }
+   }
+   {N UN000011
+    {DG
+     [Ly "WIRES"]
+     [Ls "SOLID"][Wd 0]
+     [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+     {W 2875 5750 2300 5750 2300 5475}
+    }
+   }
+   {N UN000012
+    {DG
+     [Ly "WIRES"]
+     [Ls "SOLID"][Wd 0]
+     [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+     {W 1425 5075 1400 5075}
+    }
+   }
+   {N TERMINAT
+    {DG
+     [Ly "WIRES"]
+     [Ls "SOLID"][Wd 0]
+     [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+     {W 1000 5075 1050 5075 1075 5075}
+     [Ly "NETNAM"]
+     {Nn 950 4975}
+    }
+    {ATR
+     {IN
+      {Un "Y"}
+     }
+    }
+   }
+   {N UN000015
+    {DG
+     [Ly "WIRES"]
+     [Ls "SOLID"][Wd 0]
+     [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+     {W 2600 6250 2700 6250 2700 5600 2875 5600}
+    }
+   }
+   {N GND
+    {DG
+     [Ly "WIRES"]
+     [Ls "SOLID"][Wd 0]
+     [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+     {V 2875 6300 15}
+     {W 6150 5550 6175 5550}
+     {W 6150 5625 6275 5625}
+     {W 2575 4575 2575 4525}
+     {W 3925 5200 3975 5200}
+     {W 3950 4575 3975 4575}
+     {W 4525 5625 4525 5600}
+     {W 5000 5650 5000 5600}
+     {W 4950 5150 4925 5150}
+     {W 5950 4550 5950 4650}
+     {W 6325 4400 6325 4375}
+     {W 6700 5400 6825 5400}
+     {W 4550 6500 4600 6500}
+     {W 4000 6325 4000 6300}
+     {W 2875 6300 2875 5825}
+     {W 2825 6300 2875 6300 2950 6300 2975 6300}
+     {W 1775 6250 1825 6250}
+    }
+    {ATR
+     {IN
+      {Un "Y"}
+     }
+    }
+   }
+   {N C-SOUND
+    {DG
+     [Ly "WIRES"]
+     [Ls "SOLID"][Wd 0]
+     [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+     {W 2200 6800 2200 6700}
+     [Ly "NETNAM"]
+     {Nn 2250 6900}
+    }
+    {ATR
+     {IN
+      {Un "Y"}
+     }
+    }
+   }
+   {N UN000021
+    {DG
+     [Ly "WIRES"]
+     [Ls "SOLID"][Wd 0]
+     [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+     {W 2200 6350 2200 6250 2175 6250}
+     {W 2250 6250 2200 6250 2200 5525 2875 5525}
+     {V 2200 6250 15}
+    }
+   }
+   {N UN000023
+    {DG
+     [Ly "WIRES"]
+     [Ls "SOLID"][Wd 0]
+     [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+     {W 3600 6300 3600 6325}
+     {W 3325 6300 3600 6300 3600 5600 3425 5600}
+     {V 3600 6300 15}
+    }
+   }
+   {N POWER+
+    {DG
+     [Ly "WIRES"]
+     [Ls "SOLID"][Wd 0]
+     [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+     {W 3600 6700 3650 6700}
+     {W 3600 6800 3600 6700 3600 6675}
+     {V 3600 6700 15}
+     [Ly "NETNAM"]
+     {Nn 3625 6775}
+    }
+    {ATR
+     {IN
+      {Un "Y"}
+     }
+    }
+   }
+   {N UN000027
+    {DG
+     [Ly "NETNAM"]
+     [Ls "SOLID"][Wd 0]
+     [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+     {V 3350 4925 15}
+     {V 3125 4925 15}
+     [Ly "WIRES"]
+     {W 3375 4725 3350 4725 3350 4925}
+     {W 3100 4725 3125 4725 3125 4925}
+     {W 3100 4925 3125 4925 3350 4925 3375 4925}
+    }
+   }
+   {N UN000028
+    {DG
+     [Ly "WIRES"]
+     [Ls "SOLID"][Wd 0]
+     [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+     {W 2725 4925 2750 4925}
+     {W 2750 4725 2725 4725 2725 4925 2725 5375 2875 5375}
+     {V 2725 4925 15}
+    }
+   }
+   {N UN000029
+    {DG
+     [Ly "WIRES"]
+     [Ls "SOLID"][Wd 0]
+     [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+     {W 3750 4925 3725 4925}
+     {W 3725 4725 3750 4725 3750 4925 3750 5450 3425 5450}
+     {V 3750 4925 15}
+    }
+   }
+   {N OUT-LOW
+    {DG
+     [Ly "WIRES"]
+     [Ls "SOLID"][Wd 0]
+     [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+     {W 4350 4575 4350 4500}
+     {W 4350 4725 4350 4575 4325 4575}
+     {V 4350 4575 15}
+     [Ly "NETNAM"]
+     {Nn 4375 4375}
+    }
+    {ATR
+     {IN
+      {Un "Y"}
+     }
+    }
+   }
+   {N UN000032
+    {DG
+     [Ly "WIRES"]
+     [Ls "SOLID"][Wd 0]
+     [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+     {W 4325 5200 4350 5200 4350 5075}
+     {W 3425 5675 4350 5675 4350 5200}
+     {V 4350 5200 15}
+    }
+   }
+   {N UN000035
+    {DG
+     [Ly "WIRES"]
+     [Ls "SOLID"][Wd 0]
+     [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+     {W 5600 6350 5950 6350}
+     {W 4000 6675 4000 6700 5600 6700 5600 6350 5600 6075 5600 5775}
+     {V 5600 6350 15}
+    }
+   }
+   {N UN000037
+    {DG
+     [Ly "WIRES"]
+     [Ls "SOLID"][Wd 0]
+     [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+     {W 3425 5375 3825 5375 3825 6025 4525 6025 4600 6025}
+     {W 4525 6025 4525 5975}
+     {V 4525 6025 15}
+    }
+   }
+   {N UN000039
+    {DG
+     [Ly "WIRES"]
+     [Ls "SOLID"][Wd 0]
+     [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+     {W 5125 6000 6425 6000 6425 5450 6175 5450 6175 5475 6150 5475}
+     {W 4950 6025 5000 6025 5000 6000}
+     {V 5000 6025 15}
+    }
+   }
+   {N UN000041
+    {DG
+     [Ly "WIRES"]
+     [Ls "SOLID"][Wd 0]
+     [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+     {W 6150 5400 6350 5400}
+    }
+   }
+   {N UN000043
+    {DG
+     [Ly "WIRES"]
+     [Ls "SOLID"][Wd 0]
+     [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+     {W 5600 5400 5500 5400 5500 6300}
+    }
+   }
+   {N UN000045
+    {DG
+     [Ly "WIRES"]
+     [Ls "SOLID"][Wd 0]
+     [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+     {W 4950 6500 5150 6500 5650 6500}
+     {W 5150 6300 5150 6500}
+     {V 5150 6500 15}
+    }
+   }
+   {N UN000047
+    {DG
+     [Ly "WIRES"]
+     [Ls "SOLID"][Wd 0]
+     [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+     {W 6300 6350 6500 6350 6500 6150 7175 6150 7175 5150 6850 5150}
+     {W 5600 5550 5400 5550 5400 6150 6500 6150}
+     {V 6500 6150 15}
+    }
+   }
+   {N SOUND
+    {DG
+     [Ly "WIRES"]
+     [Ls "SOLID"][Wd 0]
+     [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+     {W 6000 6500 6950 6500 7125 6500}
+     {W 6950 6500 6950 5775 6700 5775}
+     {V 6950 6500 15}
+     [Ly "NETNAM"]
+     {Nn 7025 6525}
+    }
+    {ATR
+     {IN
+      {Un "Y"}
+     }
+    }
+   }
+   {N UN000049
+    {DG
+     [Ly "WIRES"]
+     [Ls "SOLID"][Wd 0]
+     [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+     {W 6350 5775 6150 5775}
+    }
+   }
+   {N UN000051
+    {DG
+     [Ly "WIRES"]
+     [Ls "SOLID"][Wd 0]
+     [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+     {W 6325 4775 6325 4750}
+    }
+   }
+   {N UN000054
+    {DG
+     [Ly "WIRES"]
+     [Ls "SOLID"][Wd 0]
+     [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+     {W 5450 5150 5450 5475 5600 5475}
+     {W 5800 5150 5450 5150 5300 5150}
+     {V 5450 5150 15}
+    }
+   }
+   {N UN000056
+    {DG
+     [Ly "WIRES"]
+     [Ls "SOLID"][Wd 0]
+     [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+     {V 6325 5150 15}
+     {W 6325 5150 6325 5125}
+     {W 6150 5150 6325 5150 6500 5150}
+    }
+   }
+  }
+
+  {SUBCOMP
+   {COMP_DEF CAPV.SYM
+    {PIN_DEF
+     [Ly "PINCON"]
+     {P 1 {Pt "I/O"}{Lq 1}{Ploc 0 0}}
+     {P 2 {Pt "I/O"}{Lq 1}{Ploc 0 -350}}
+    }
+    {PKG
+     [Ly "REFDES"]
+     [Ts 62][Tj "LC"][Tr 0][Tm "N"]
+     {Rdl 87 -175}
+
+     [Ly "PINNUM"]
+     [Ts 37][Tj "RC"]
+     {Pnl -25 -50}
+     {Pnl -25 -300}
+
+     {Pid CAPV}
+     {Sd A 1 2}
+    }
+
+    {PIC
+     [Ly "GATE"]
+     [Ls "SOLID"][Wd 0]
+     [Ts 37][Tj "RC"][Tr 0][Tm "N"]
+     {L 0 -200 0 -350}
+     {L 0 0 0 -150}
+     {L 62 -150 -62 -150}
+     {L 62 -200 -62 -200}
+     [Ly "IEEE"]
+     {L 62 -200 -62 -200}
+     {L 62 -150 -62 -150}
+     {L 0 0 0 -150}
+     {L 0 -200 0 -350}
+    }
+    {ATR
+     {IN
+      {Ty 9}
+     }
+    }
+   }
+   {I CAPV.SYM C1
+    {CN IN-LOW UN000003}
+    {ASG A
+     [Ly "REFDES"]
+     [Ts 62][Tj "CC"][Tr 3][Tm "N"]
+     {Rd "C1" 175 100}
+     [Ly "PINNUM"]
+     [Ts 37][Tj "RC"][Tr 0]
+     {Pn "1" 50 -25}
+     {Pn "2" 300 -25}
+    }
+    {ATR
+     {IN
+      {Pl 975 6300}
+      {Ro 1}
+      [Ly "CMPNAM"]
+      [Ts 37][Tj "RT"][Tr 1][Tm "N"]
+      {Nl 225 50}
+      {Un "Y"}
+     }
+     {EX
+      [Ly "ATTR"]
+      [Ts 37][Tj "LB"][Tr 3][Tm "N"]
+      {At PRT E06.PRT 225 -50}
+      {At N 3300pF 225 0}
+     }
+    }
+   }
+   {I CAPV.SYM C2
+    {CN UN000009 GND}
+    {ASG A
+     [Ly "REFDES"]
+     [Ts 62][Tj "LC"][Tr 0][Tm "N"]
+     {Rd "C2" 87 -175}
+     [Ly "PINNUM"]
+     [Ts 37][Tj "RC"]
+     {Pn "1" -25 -50}
+     {Pn "2" -25 -300}
+    }
+    {ATR
+     {IN
+      {Pl 2575 4925}
+      [Ly "CMPNAM"]
+      [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+      {Nl -150 -175}
+      {Un "Y"}
+     }
+     {EX
+      [Ly "ATTR"]
+      [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+      {At PRT E01.PRT -250 -300}
+      {At N 0.022mkF -250 -250}
+     }
+    }
+   }
+   {I CAPV.SYM C5
+    {CN UN000028 UN000027}
+    {ASG A
+     [Ly "REFDES"]
+     [Ts 62][Tj "LC"][Tr 0][Tm "N"]
+     {Rd "C5" 175 87}
+     [Ly "PINNUM"]
+     [Ts 37][Tj "RC"]
+     {Pn "1" 50 -25}
+     {Pn "2" 300 -25}
+    }
+    {ATR
+     {IN
+      {Pl 2750 4925}
+      {Ro 1}
+      [Ly "CMPNAM"]
+      [Ts 37][Tj "RT"][Tr 1][Tm "N"]
+      {Nl 225 50}
+      {Un "Y"}
+     }
+     {EX
+      [Ly "ATTR"]
+      [Ts 37][Tj "LB"][Tr 3][Tm "N"]
+      {At PRT E02.PRT 225 -50}
+      {At N 1200pF 225 0}
+     }
+    }
+   }
+   {I CAPV.SYM C6
+    {CN UN000027 UN000029}
+    {ASG A
+     [Ly "REFDES"]
+     [Ts 62][Tj "LC"][Tr 0][Tm "N"]
+     {Rd "C6" 175 87}
+     [Ly "PINNUM"]
+     [Ts 37][Tj "RC"]
+     {Pn "1" 50 -25}
+     {Pn "2" 300 -25}
+    }
+    {ATR
+     {IN
+      {Pl 3375 4925}
+      {Ro 1}
+      [Ly "CMPNAM"]
+      [Ts 37][Tj "RT"][Tr 1][Tm "N"]
+      {Nl 250 50}
+      {Un "Y"}
+     }
+     {EX
+      [Ly "ATTR"]
+      [Ts 37][Tj "LB"][Tr 3][Tm "N"]
+      {At PRT E02.PRT 225 -50}
+      {At N 1500pF 225 0}
+     }
+    }
+   }
+   {I CAPV.SYM C3
+    {CN UN000011 UN000009}
+    {ASG A
+     [Ly "REFDES"]
+     [Ts 62][Tj "LC"][Tr 0][Tm "N"]
+     {Rd "C3" 87 -175}
+     [Ly "PINNUM"]
+     [Ts 37][Tj "RC"]
+     {Pn "1" -25 -50}
+     {Pn "2" -25 -300}
+    }
+    {ATR
+     {IN
+      {Pl 2300 5475}
+      [Ly "CMPNAM"]
+      [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+      {Nl 50 -125}
+      {Un "Y"}
+     }
+     {EX
+      [Ly "ATTR"]
+      [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+      {At PRT E01.PRT 50 -300}
+      {At N 0.022mkF 50 -250}
+     }
+    }
+   }
+   {I CAPV.SYM C10
+    {CN GND UN000032}
+    {ASG A
+     [Ly "REFDES"]
+     [Ts 62][Tj "LC"][Tr 0][Tm "N"]
+     {Rd "C10" 175 87}
+     [Ly "PINNUM"]
+     [Ts 37][Tj "RC"]
+     {Pn "1" 50 -25}
+     {Pn "2" 300 -25}
+    }
+    {ATR
+     {IN
+      {Pl 3975 5200}
+      {Ro 1}
+      [Ly "CMPNAM"]
+      [Ts 37][Tj "RT"][Tr 1][Tm "N"]
+      {Nl 225 100}
+      {Un "Y"}
+     }
+     {EX
+      [Ly "ATTR"]
+      [Ts 37][Tj "LB"][Tr 3][Tm "N"]
+      {At PRT E03.PRT 225 0}
+      {At N 0.047mkF 225 50}
+     }
+    }
+   }
+   {I CAPV.SYM C11
+    {CN GND OUT-LOW}
+    {ASG A
+     [Ly "REFDES"]
+     [Ts 62][Tj "LC"][Tr 0][Tm "N"]
+     {Rd "C11" 175 87}
+     [Ly "PINNUM"]
+     [Ts 37][Tj "RC"]
+     {Pn "1" 50 -25}
+     {Pn "2" 300 -25}
+    }
+    {ATR
+     {IN
+      {Pl 3975 4575}
+      {Ro 1}
+      [Ly "CMPNAM"]
+      [Ts 37][Tj "RT"][Tr 1][Tm "N"]
+      {Nl 200 75}
+      {Un "Y"}
+     }
+     {EX
+      [Ly "ATTR"]
+      [Ts 37][Tj "LB"][Tr 3][Tm "N"]
+      {At PRT E07.PRT 225 -50}
+      {At N 560pF 225 25}
+     }
+    }
+   }
+   {I CAPV.SYM C9
+    {CN UN000037 GND}
+    {ASG A
+     [Ly "REFDES"]
+     [Ts 62][Tj "LC"][Tr 0][Tm "N"]
+     {Rd "C9" 87 -175}
+     [Ly "PINNUM"]
+     [Ts 37][Tj "RC"]
+     {Pn "1" -25 -50}
+     {Pn "2" -25 -300}
+    }
+    {ATR
+     {IN
+      {Pl 4525 5975}
+      [Ly "CMPNAM"]
+      [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+      {Nl 25 -125}
+      {Un "Y"}
+     }
+     {EX
+      [Ly "ATTR"]
+      [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+      {At PRT E03.PRT 25 -300}
+      {At N 0.33mkF 25 -250}
+     }
+    }
+   }
+   {I CAPV.SYM C13
+    {CN GND UN000054}
+    {ASG A
+     [Ly "REFDES"]
+     [Ts 62][Tj "LC"][Tr 0][Tm "N"]
+     {Rd "C13" 175 87}
+     [Ly "PINNUM"]
+     [Ts 37][Tj "RC"]
+     {Pn "1" 50 -25}
+     {Pn "2" 300 -25}
+    }
+    {ATR
+     {IN
+      {Pl 4950 5150}
+      {Ro 1}
+      [Ly "CMPNAM"]
+      [Ts 37][Tj "RT"][Tr 1][Tm "N"]
+      {Nl 225 50}
+      {Un "Y"}
+     }
+     {EX
+      [Ly "ATTR"]
+      [Ts 37][Tj "LB"][Tr 3][Tm "N"]
+      {At PRT E05.PRT 225 -50}
+      {At N 1000pF 225 0}
+     }
+    }
+   }
+   {I CAPV.SYM C14
+    {CN UN000054 UN000056}
+    {ASG A
+     [Ly "REFDES"]
+     [Ts 62][Tj "LC"][Tr 0][Tm "N"]
+     {Rd "C14" 175 87}
+     [Ly "PINNUM"]
+     [Ts 37][Tj "RC"]
+     {Pn "1" 50 -25}
+     {Pn "2" 300 -25}
+    }
+    {ATR
+     {IN
+      {Pl 5800 5150}
+      {Ro 1}
+      [Ly "CMPNAM"]
+      [Ts 37][Tj "RT"][Tr 1][Tm "N"]
+      {Nl 225 50}
+      {Un "Y"}
+     }
+     {EX
+      [Ly "ATTR"]
+      [Ts 37][Tj "LB"][Tr 3][Tm "N"]
+      {At PRT E07.PRT 225 -50}
+      {At N 360pF 225 0}
+     }
+    }
+   }
+   {I CAPV.SYM C18
+    {CN UN000056 UN000051}
+    {ASG A
+     [Ly "REFDES"]
+     [Ts 62][Tj "LC"][Tr 0][Tm "N"]
+     {Rd "C18" 87 -175}
+     [Ly "PINNUM"]
+     [Ts 37][Tj "RC"]
+     {Pn "1" -25 -50}
+     {Pn "2" -25 -300}
+    }
+    {ATR
+     {IN
+      {Pl 6325 5125}
+      [Ly "CMPNAM"]
+      [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+      {Nl 25 -125}
+      {Un "Y"}
+     }
+     {EX
+      [Ly "ATTR"]
+      [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+      {At PRT E04.PRT 25 -300}
+      {At N 0.1mkF 25 -250}
+     }
+    }
+   }
+   {COMP_DEF DGND.SYM
+    {PIN_DEF
+     [Ly "PINCON"]
+     {P 1 {Pt "I/O"}{Lq 0}{Ploc 0 0}}
+    }
+    {PKG
+     [Ly "REFDES"]
+     [Ts 5][Tj "CC"][Tr 0][Tm "N"]
+     {Rdl 0 -25}
+
+     [Ly "PINNUM"]
+     {Pnl 0 -25}
+
+     {Pid DGND}
+     {Sd A 1}
+    }
+
+    {PIC
+     [Ly "GATE"]
+     [Ls "SOLID"][Wd 0]
+     [Ts 5][Tj "CC"][Tr 0][Tm "N"]
+     {L 50 -25 12 -87}
+     {L 0 -25 -37 -87}
+     {L -50 -25 -87 -87}
+     {L -50 -25 50 -25}
+     {L 0 0 0 -25}
+     [Ly "IEEE"]
+     {L 0 0 0 -25}
+     {L -50 -25 50 -25}
+     {L -50 -25 -87 -87}
+     {L 0 -25 -37 -87}
+     {L 50 -25 12 -87}
+    }
+    {ATR
+     {IN
+      {Ty -1}
+     }
+    }
+   }
+   {I DGND.SYM UC000070
+    {CN GND}
+    {ATR
+     {IN
+      {Pl 1775 6250}
+      {Ro 3}
+     }
+    }
+   }
+   {I DGND.SYM UC000085
+    {CN GND}
+    {ATR
+     {IN
+      {Pl 2575 4525}
+     }
+    }
+   }
+   {I DGND.SYM UC000092
+    {CN GND}
+    {ATR
+     {IN
+      {Pl 2825 6300}
+      {Ro 3}
+     }
+    }
+   }
+   {I DGND.SYM UC000096
+    {CN GND}
+    {ATR
+     {IN
+      {Pl 3925 5200}
+      {Ro 3}
+     }
+    }
+   }
+   {I DGND.SYM UC000100
+    {CN GND}
+    {ATR
+     {IN
+      {Pl 3950 4575}
+      {Ro 3}
+     }
+    }
+   }
+   {I DGND.SYM UC000104
+    {CN GND}
+    {ATR
+     {IN
+      {Pl 4525 5600}
+     }
+    }
+   }
+   {I DGND.SYM UC000107
+    {CN GND}
+    {ATR
+     {IN
+      {Pl 6825 5400}
+      {Ro 1}
+     }
+    }
+   }
+   {I DGND.SYM UC000108
+    {CN GND}
+    {ATR
+     {IN
+      {Pl 5000 5600}
+     }
+    }
+   }
+   {I DGND.SYM UC000115
+    {CN GND}
+    {ATR
+     {IN
+      {Pl 4000 6300}
+     }
+    }
+   }
+   {I DGND.SYM UC000116
+    {CN GND}
+    {ATR
+     {IN
+      {Pl 4550 6500}
+      {Ro 3}
+     }
+    }
+   }
+   {I DGND.SYM UC000123
+    {CN GND}
+    {ATR
+     {IN
+      {Pl 4925 5150}
+      {Ro 3}
+     }
+    }
+   }
+   {I DGND.SYM UC000124
+    {CN GND}
+    {ATR
+     {IN
+      {Pl 6325 4375}
+     }
+    }
+   }
+   {I DGND.SYM UC000125
+    {CN GND}
+    {ATR
+     {IN
+      {Pl 5950 4650}
+      {Ro 2}
+     }
+    }
+   }
+   {I DGND.SYM UC000126
+    {CN GND}
+    {ATR
+     {IN
+      {Pl 6275 5625}
+      {Ro 1}
+     }
+    }
+   }
+   {I DGND.SYM UC000127
+    {CN GND}
+    {ATR
+     {IN
+      {Pl 6175 5550}
+      {Ro 1}
+     }
+    }
+   }
+   {COMP_DEF DIODE.SYM
+    {PIN_DEF
+     [Ly "PINCON"]
+     {P K {Pt "I/O"}{Lq 0}{Ploc 0 0}}
+     {P A {Pt "I/O"}{Lq 0}{Ploc 350 0}}
+    }
+    {PKG
+     [Ly "REFDES"]
+     [Ts 62][Tj "CB"][Tr 0][Tm "N"]
+     {Rdl 175 62}
+
+     [Ly "PINNUM"]
+     [Ts 37][Tj "RC"]
+     {Pnl 50 25}
+     [Tj "LC"]
+     {Pnl 300 25}
+
+     {Pid DIODE}
+     {Sd A 1 2}
+    }
+
+    {PIC
+     [Ly "GATE"]
+     [Ls "SOLID"][Wd 0]
+     [Ts 37][Tj "LC"][Tr 0][Tm "N"]
+     {L 0 0 150 0}
+     {L 150 37 150 -37}
+     {L 200 37 150 0 200 -37 200 37}
+     {L 350 0 200 0}
+     [Ly "IEEE"]
+     {L 150 37 150 -37}
+     {L 350 0 200 0}
+     {L 200 37 150 0 200 -37 200 37}
+     {L 0 0 150 0}
+    }
+    {ATR
+     {IN
+      {Ty 89}
+     }
+    }
+   }
+   {I DIODE.SYM VD1
+    {CN TERMINAT UN000012}
+    {ASG A
+     [Ly "REFDES"]
+     [Ts 62][Tj "CB"][Tr 0][Tm "N"]
+     {Rd "VD1" 175 62}
+     [Ly "PINNUM"]
+     [Ts 37][Tj "RC"]
+     {Pn "1" 50 25}
+     [Tj "LC"]
+     {Pn "2" 300 25}
+    }
+    {ATR
+     {IN
+      {Pl 1050 5075}
+      [Ly "CMPNAM"]
+      [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+      {Nl 250 75}
+      {Un "Y"}
+     }
+     {EX
+      [Ly "ATTR"]
+      [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+      {At PRT E08.PRT 225 -50}
+     }
+    }
+   }
+   {COMP_DEF INDUCTOR.SYM
+    {PIN_DEF
+     [Ly "PINCON"]
+     {P A {Pt "I/O"}{Lq 1}{Ploc 0 0}}
+     {P B {Pt "I/O"}{Lq 1}{Ploc 350 0}}
+    }
+    {PKG
+     [Ly "REFDES"]
+     [Ts 62][Tj "CB"][Tr 0][Tm "N"]
+     {Rdl 175 50}
+
+     [Ly "PINNUM"]
+     [Ts 37][Tj "RC"]
+     {Pnl 50 25}
+     [Tj "LC"]
+     {Pnl 300 25}
+
+     {Pid INDUCTOR}
+     {Sd A 1 2}
+    }
+
+    {PIC
+     [Ly "GATE"]
+     [Ls "SOLID"][Wd 0]
+     [Ts 37][Tj "LC"][Tr 0][Tm "N"]
+     {L 197 27 200 27}
+     {L 127 -37 130 -35}
+     {L 0 0 65 0 67 2}
+     {Arc 245 -10 280 0 222 -37 }
+     {Arc 102 -10 125 -37 67 0 }
+     {Arc 197 -10 220 -37 175 -37 }
+     {Arc 150 -10 172 -37 127 -37 }
+     {L 280 2 282 0 350 0}
+     [Ly "IEEE"]
+     {L 280 2 282 0 350 0}
+     {L 0 0 65 0 67 2}
+     {Arc 102 -10 125 -37 67 0 }
+     {Arc 245 -10 280 0 222 -37 }
+     {Arc 150 -10 172 -37 127 -37 }
+     {Arc 197 -10 220 -37 175 -37 }
+    }
+    {ATR
+     {IN
+      {Ty 114}
+     }
+    }
+   }
+   {I INDUCTOR.SYM L1
+    {CN UN000028 UN000027}
+    {ASG A
+     [Ly "REFDES"]
+     [Ts 62][Tj "CB"][Tr 0][Tm "N"]
+     {Rd "L1" 175 50}
+     [Ly "PINNUM"]
+     [Ts 37][Tj "RC"]
+     {Pn "1" 50 25}
+     [Tj "LC"]
+     {Pn "2" 300 25}
+    }
+    {ATR
+     {IN
+      {Pl 2750 4725}
+      [Ly "CMPNAM"]
+      [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+      {Nl 225 50}
+      {Un "Y"}
+     }
+     {EX
+      [Ly "ATTR"]
+      [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+      {At PRT E11.PRT 75 -75}
+     }
+    }
+   }
+   {I INDUCTOR.SYM L2
+    {CN UN000027 UN000029}
+    {ASG A
+     [Ly "REFDES"]
+     [Ts 62][Tj "CB"][Tr 0][Tm "N"]
+     {Rd "L2" 175 50}
+     [Ly "PINNUM"]
+     [Ts 37][Tj "RC"]
+     {Pn "1" 50 25}
+     [Tj "LC"]
+     {Pn "2" 300 25}
+    }
+    {ATR
+     {IN
+      {Pl 3375 4725}
+      [Ly "CMPNAM"]
+      [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+      {Nl 225 50}
+      {Un "Y"}
+     }
+     {EX
+      [Ly "ATTR"]
+      [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+      {At PRT E11.PRT 75 -100}
+     }
+    }
+   }
+   {COMP_DEF POLCAPV.SYM
+    {PIN_DEF
+     [Ly "PINCON"]
+     {P 1 {Pt "I/O"}{Lq 0}{Ploc 0 0}}
+     {P 2 {Pt "I/O"}{Lq 0}{Ploc 0 -350}}
+    }
+    {PKG
+     [Ly "REFDES"]
+     [Ts 62][Tj "LC"][Tr 0][Tm "N"]
+     {Rdl 87 -175}
+
+     [Ly "PINNUM"]
+     [Ts 37][Tj "RC"]
+     {Pnl -25 -50}
+     {Pnl -25 -300}
+
+     {Pid POLCAPV}
+     {Sd A 1 2}
+    }
+
+    {PIC
+     [Ly "GATE"]
+     [Ls "SOLID"][Wd 0]
+     [Ts 37][Tj "RC"][Tr 0][Tm "N"]
+     {Arc 0 -315 60 -227 -60 -227 }
+     {L 0 -207 0 -350}
+     {L 50 -150 50 -100}
+     {L 75 -125 25 -125}
+     {L 0 0 0 -175}
+     {L 62 -175 -62 -175}
+     [Ly "IEEE"]
+     {Arc 0 -315 60 -227 -60 -227 }
+     {L 75 -125 25 -125}
+     {L 50 -150 50 -100}
+     {L 0 0 0 -175}
+     {L 62 -175 -62 -175}
+     {L 0 -207 0 -350}
+    }
+    {ATR
+     {IN
+      {Ty 87}
+     }
+    }
+   }
+   {I POLCAPV.SYM C4
+    {CN UN000021 GND}
+    {ASG A
+     [Ly "REFDES"]
+     [Ts 62][Tj "LC"][Tr 0][Tm "N"]
+     {Rd "C4" -175 -87}
+     [Ly "PINNUM"]
+     [Ts 37][Tj "RC"]
+     {Pn "1" -50 25}
+     {Pn "2" -300 25}
+    }
+    {ATR
+     {IN
+      {Pl 2175 6250}
+      {Ro 3}
+      [Ly "CMPNAM"]
+      [Ts 37][Tj "LB"][Tr 1][Tm "N"]
+      {Nl -125 50}
+      {Un "Y"}
+     }
+     {EX
+      [Ly "ATTR"]
+      [Ts 37][Tj "LB"][Tr 1][Tm "N"]
+      {At PRT E16.PRT -275 -125}
+      {At N 4.7mkF -175 0}
+     }
+    }
+   }
+   {I POLCAPV.SYM C7
+    {CN UN000023 GND}
+    {ASG A
+     [Ly "REFDES"]
+     [Ts 62][Tj "LC"][Tr 0][Tm "N"]
+     {Rd "C7" -175 -87}
+     [Ly "PINNUM"]
+     [Ts 37][Tj "RC"]
+     {Pn "1" -50 25}
+     {Pn "2" -300 25}
+    }
+    {ATR
+     {IN
+      {Pl 3325 6300}
+      {Ro 3}
+      [Ly "CMPNAM"]
+      [Ts 37][Tj "LB"][Tr 1][Tm "N"]
+      {Nl -125 50}
+      {Un "Y"}
+     }
+     {EX
+      [Ly "ATTR"]
+      [Ts 37][Tj "LB"][Tr 1][Tm "N"]
+      {At PRT E16.PRT -275 -125}
+      {At N 22mkF -150 0}
+     }
+    }
+   }
+   {I POLCAPV.SYM C12
+    {CN UN000039 UN000037}
+    {ASG A
+     [Ly "REFDES"]
+     [Ts 62][Tj "LC"][Tr 0][Tm "N"]
+     {Rd "C12" -175 -87}
+     [Ly "PINNUM"]
+     [Ts 37][Tj "RC"]
+     {Pn "1" -50 25}
+     {Pn "2" -300 25}
+    }
+    {ATR
+     {IN
+      {Pl 4950 6025}
+      {Ro 3}
+      [Ly "CMPNAM"]
+      [Ts 37][Tj "LB"][Tr 1][Tm "N"]
+      {Nl -150 50}
+      {Un "Y"}
+     }
+     {EX
+      [Ly "ATTR"]
+      [Ts 37][Tj "LB"][Tr 1][Tm "N"]
+      {At PRT E16.PRT -275 -125}
+      {At N 4.7mkF -150 0}
+     }
+    }
+   }
+   {I POLCAPV.SYM C19
+    {CN UN000041 GND}
+    {ASG A
+     [Ly "REFDES"]
+     [Ts 62][Tj "LC"][Tr 0][Tm "N"]
+     {Rd "C19" 175 87}
+     [Ly "PINNUM"]
+     [Ts 37][Tj "RC"]
+     {Pn "1" 50 -25}
+     {Pn "2" 300 -25}
+    }
+    {ATR
+     {IN
+      {Pl 6350 5400}
+      {Ro 1}
+      [Ly "CMPNAM"]
+      [Ts 37][Tj "RT"][Tr 1][Tm "N"]
+      {Nl 250 75}
+      {Un "Y"}
+     }
+     {EX
+      [Ly "ATTR"]
+      [Ts 37][Tj "LB"][Tr 3][Tm "N"]
+      {At PRT E17.PRT 250 -50}
+      {At N 100mkF 250 25}
+     }
+    }
+   }
+   {I POLCAPV.SYM C8
+    {CN UN000035 GND}
+    {ASG A
+     [Ly "REFDES"]
+     [Ts 62][Tj "LC"][Tr 0][Tm "N"]
+     {Rd "C8" 87 -175}
+     [Ly "PINNUM"]
+     [Ts 37][Tj "RC"]
+     {Pn "1" -25 -50}
+     {Pn "2" -25 -300}
+    }
+    {ATR
+     {IN
+      {Pl 4000 6675}
+      [Ly "CMPNAM"]
+      [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+      {Nl 100 -125}
+      {Un "Y"}
+     }
+     {EX
+      [Ly "ATTR"]
+      [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+      {At PRT E19.PRT 100 -300}
+      {At N 470mkF 100 -250}
+     }
+    }
+   }
+   {I POLCAPV.SYM C15
+    {CN UN000043 UN000045}
+    {ASG A
+     [Ly "REFDES"]
+     [Ts 62][Tj "LC"][Tr 0][Tm "N"]
+     {Rd "C15" -175 -87}
+     [Ly "PINNUM"]
+     [Ts 37][Tj "RC"]
+     {Pn "1" -50 25}
+     {Pn "2" -300 25}
+    }
+    {ATR
+     {IN
+      {Pl 5500 6300}
+      {Ro 3}
+      [Ly "CMPNAM"]
+      [Ts 37][Tj "LB"][Tr 1][Tm "N"]
+      {Nl -125 50}
+      {Un "Y"}
+     }
+     {EX
+      [Ly "ATTR"]
+      [Ts 37][Tj "LB"][Tr 1][Tm "N"]
+      {At PRT E18.PRT -275 -125}
+      {At N 220mkF -125 0}
+     }
+    }
+   }
+   {I POLCAPV.SYM C16
+    {CN UN000047 UN000056}
+    {ASG A
+     [Ly "REFDES"]
+     [Ts 62][Tj "LC"][Tr 0][Tm "N"]
+     {Rd "C16" -175 -87}
+     [Ly "PINNUM"]
+     [Ts 37][Tj "RC"]
+     {Pn "1" -50 25}
+     {Pn "2" -300 25}
+    }
+    {ATR
+     {IN
+      {Pl 6850 5150}
+      {Ro 3}
+      [Ly "CMPNAM"]
+      [Ts 37][Tj "LB"][Tr 1][Tm "N"]
+      {Nl -150 50}
+      {Un "Y"}
+     }
+     {EX
+      [Ly "ATTR"]
+      [Ts 37][Tj "LB"][Tr 1][Tm "N"]
+      {At PRT E16.PRT -300 -125}
+     }
+    }
+   }
+   {I POLCAPV.SYM C17
+    {CN UN000049 SOUND}
+    {ASG A
+     [Ly "REFDES"]
+     [Ts 62][Tj "LC"][Tr 0][Tm "N"]
+     {Rd "C17" 175 87}
+     [Ly "PINNUM"]
+     [Ts 37][Tj "RC"]
+     {Pn "1" 50 -25}
+     {Pn "2" 300 -25}
+    }
+    {ATR
+     {IN
+      {Pl 6350 5775}
+      {Ro 1}
+      [Ly "CMPNAM"]
+      [Ts 37][Tj "RT"][Tr 1][Tm "N"]
+      {Nl 250 50}
+      {Un "Y"}
+     }
+     {EX
+      [Ly "ATTR"]
+      [Ts 37][Tj "LB"][Tr 3][Tm "N"]
+      {At PRT E19.PRT 250 -50}
+      {At N 470mkF 250 0}
+     }
+    }
+   }
+   {COMP_DEF RESH.SYM
+    {PIN_DEF
+     [Ly "PINCON"]
+     {P 1 {Pt "I/O"}{Lq 1}{Ploc 0 0}}
+     {P 2 {Pt "I/O"}{Lq 1}{Ploc 350 0}}
+    }
+    {PKG
+     [Ly "REFDES"]
+     [Ts 62][Tj "CB"][Tr 0][Tm "N"]
+     {Rdl 175 50}
+
+     [Ly "PINNUM"]
+     [Ts 37][Tj "RC"]
+     {Pnl 50 25}
+     [Tj "LC"]
+     {Pnl 300 25}
+
+     {Pid RESH}
+     {Sd A 1 2}
+    }
+
+    {PIC
+     [Ly "GATE"]
+     [Ls "SOLID"][Wd 0]
+     [Ts 37][Tj "LC"][Tr 0][Tm "N"]
+     {L 0 0 100 0 112 25 137 -25 162 25 187 -25 212 25 237 -25
+        250 0 350 0}
+     [Ly "IEEE"]
+     {L 0 0 100 0 112 25 137 -25 162 25 187 -25 212 25 237 -25
+        250 0 350 0}
+    }
+    {ATR
+     {IN
+      {Ty 9}
+     }
+    }
+   }
+   {I RESH.SYM R7
+    {CN UN000021 UN000015}
+    {ASG A
+     [Ly "REFDES"]
+     [Ts 62][Tj "CB"][Tr 0][Tm "N"]
+     {Rd "R7" 175 50}
+     [Ly "PINNUM"]
+     [Ts 37][Tj "RC"]
+     {Pn "1" 50 25}
+     [Tj "LC"]
+     {Pn "2" 300 25}
+    }
+    {ATR
+     {IN
+      {Pl 2250 6250}
+      [Ly "CMPNAM"]
+      [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+      {Nl 250 100}
+      {Un "Y"}
+     }
+     {EX
+      [Ly "ATTR"]
+      [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+      {At PRT E09.PRT 100 -75}
+      {At N 4.7k 250 50}
+     }
+    }
+   }
+   {I RESH.SYM R1
+    {CN IN-HIGHT UN000005}
+    {ASG A
+     [Ly "REFDES"]
+     [Ts 62][Tj "CB"][Tr 0][Tm "N"]
+     {Rd "R1" 175 50}
+     [Ly "PINNUM"]
+     [Ts 37][Tj "RC"]
+     {Pn "1" 50 25}
+     [Tj "LC"]
+     {Pn "2" 300 25}
+    }
+    {ATR
+     {IN
+      {Pl 1125 5725}
+      [Ly "CMPNAM"]
+      [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+      {Nl 225 100}
+      {Un "Y"}
+     }
+     {EX
+      [Ly "ATTR"]
+      [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+      {At PRT E09.PRT 100 -75}
+      {At N 470 225 50}
+     }
+    }
+   }
+   {I RESH.SYM R2
+    {CN IN-HIGHT UN000006}
+    {ASG A
+     [Ly "REFDES"]
+     [Ts 62][Tj "CB"][Tr 0][Tm "N"]
+     {Rd "R2" 175 50}
+     [Ly "PINNUM"]
+     [Ts 37][Tj "RC"]
+     {Pn "1" 50 25}
+     [Tj "LC"]
+     {Pn "2" 300 25}
+    }
+    {ATR
+     {IN
+      {Pl 1125 5475}
+      [Ly "CMPNAM"]
+      [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+      {Nl 225 100}
+      {Un "Y"}
+     }
+     {EX
+      [Ly "ATTR"]
+      [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+      {At PRT E09.PRT 100 -75}
+      {At N 470 225 50}
+     }
+    }
+   }
+   {I RESH.SYM R4
+    {CN IN-LOW UN000003}
+    {ASG A
+     [Ly "REFDES"]
+     [Ts 62][Tj "CB"][Tr 0][Tm "N"]
+     {Rd "R4" 175 50}
+     [Ly "PINNUM"]
+     [Ts 37][Tj "RC"]
+     {Pn "1" 50 25}
+     [Tj "LC"]
+     {Pn "2" 300 25}
+    }
+    {ATR
+     {IN
+      {Pl 975 6100}
+      [Ly "CMPNAM"]
+      [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+      {Nl 225 100}
+      {Un "Y"}
+     }
+     {EX
+      [Ly "ATTR"]
+      [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+      {At PRT E09.PRT 100 -75}
+      {At N 33k 225 50}
+     }
+    }
+   }
+   {I RESH.SYM R9
+    {CN POWER+ UN000035}
+    {ASG A
+     [Ly "REFDES"]
+     [Ts 62][Tj "CB"][Tr 0][Tm "N"]
+     {Rd "R9" 175 50}
+     [Ly "PINNUM"]
+     [Ts 37][Tj "RC"]
+     {Pn "1" 50 25}
+     [Tj "LC"]
+     {Pn "2" 300 25}
+    }
+    {ATR
+     {IN
+      {Pl 3650 6700}
+      [Ly "CMPNAM"]
+      [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+      {Nl 250 100}
+      {Un "Y"}
+     }
+     {EX
+      [Ly "ATTR"]
+      [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+      {At PRT E10.PRT 100 -75}
+      {At N 10 250 50}
+     }
+    }
+   }
+   {I RESH.SYM R12
+    {CN GND UN000045}
+    {ASG A
+     [Ly "REFDES"]
+     [Ts 62][Tj "CB"][Tr 0][Tm "N"]
+     {Rd "R12" 175 50}
+     [Ly "PINNUM"]
+     [Ts 37][Tj "RC"]
+     {Pn "1" 50 25}
+     [Tj "LC"]
+     {Pn "2" 300 25}
+    }
+    {ATR
+     {IN
+      {Pl 4600 6500}
+      [Ly "CMPNAM"]
+      [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+      {Nl 275 100}
+      {Un "Y"}
+     }
+     {EX
+      [Ly "ATTR"]
+      [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+      {At PRT E09.PRT 100 -75}
+      {At N 56 275 50}
+     }
+    }
+   }
+   {I RESH.SYM R13
+    {CN UN000045 SOUND}
+    {ASG A
+     [Ly "REFDES"]
+     [Ts 62][Tj "CB"][Tr 0][Tm "N"]
+     {Rd "R13" 175 50}
+     [Ly "PINNUM"]
+     [Ts 37][Tj "RC"]
+     {Pn "1" 50 25}
+     [Tj "LC"]
+     {Pn "2" 300 25}
+    }
+    {ATR
+     {IN
+      {Pl 5650 6500}
+      [Ly "CMPNAM"]
+      [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+      {Nl 275 100}
+      {Un "Y"}
+     }
+     {EX
+      [Ly "ATTR"]
+      [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+      {At PRT E09.PRT 100 -75}
+      {At N 1.5k 275 50}
+     }
+    }
+   }
+   {I RESH.SYM R14
+    {CN UN000035 UN000047}
+    {ASG A
+     [Ly "REFDES"]
+     [Ts 62][Tj "CB"][Tr 0][Tm "N"]
+     {Rd "R14" 175 50}
+     [Ly "PINNUM"]
+     [Ts 37][Tj "RC"]
+     {Pn "1" 50 25}
+     [Tj "LC"]
+     {Pn "2" 300 25}
+    }
+    {ATR
+     {IN
+      {Pl 5950 6350}
+      [Ly "CMPNAM"]
+      [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+      {Nl 250 100}
+      {Un "Y"}
+     }
+     {EX
+      [Ly "ATTR"]
+      [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+      {At PRT E09.PRT 100 -75}
+      {At N 470 250 50}
+     }
+    }
+   }
+   {COMP_DEF RESV.SYM
+    {PIN_DEF
+     [Ly "PINCON"]
+     {P 1 {Pt "I/O"}{Lq 1}{Ploc 0 0}}
+     {P 2 {Pt "I/O"}{Lq 1}{Ploc 0 -350}}
+    }
+    {PKG
+     [Ly "REFDES"]
+     [Ts 62][Tj "LC"][Tr 0][Tm "N"]
+     {Rdl 50 -175}
+
+     [Ly "PINNUM"]
+     [Ts 37][Tj "RC"]
+     {Pnl -25 -50}
+     {Pnl -25 -300}
+
+     {Pid RESV}
+     {Sd A 1 2}
+    }
+
+    {PIC
+     [Ly "GATE"]
+     [Ls "SOLID"][Wd 0]
+     [Ts 37][Tj "RC"][Tr 0][Tm "N"]
+     {L 0 0 0 -100 25 -112 -25 -137 25 -162 -25 -187 25 -212 -25 -237
+        0 -250 0 -350}
+     [Ly "IEEE"]
+     {L 0 0 0 -100 25 -112 -25 -137 25 -162 -25 -187 25 -212 -25 -237
+        0 -250 0 -350}
+    }
+    {ATR
+     {IN
+      {Ty 9}
+     }
+    }
+   }
+   {I RESV.SYM R6
+    {CN C-SOUND UN000021}
+    {ASG A
+     [Ly "REFDES"]
+     [Ts 62][Tj "LC"][Tr 0][Tm "N"]
+     {Rd "R6" 50 -175}
+     [Ly "PINNUM"]
+     [Ts 37][Tj "RC"]
+     {Pn "1" -25 -50}
+     {Pn "2" -25 -300}
+    }
+    {ATR
+     {IN
+      {Pl 2200 6700}
+      [Ly "CMPNAM"]
+      [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+      {Nl 50 -150}
+      {Un "Y"}
+     }
+     {EX
+      [Ly "ATTR"]
+      [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+      {At PRT E09.PRT 50 -300}
+      {At N 10k 50 -250}
+     }
+    }
+   }
+   {I RESV.SYM R3
+    {CN UN000007 UN000009}
+    {ASG A
+     [Ly "REFDES"]
+     [Ts 62][Tj "LC"][Tr 0][Tm "N"]
+     {Rd "R3" 50 -175}
+     [Ly "PINNUM"]
+     [Ts 37][Tj "RC"]
+     {Pn "1" -25 -50}
+     {Pn "2" -25 -300}
+    }
+    {ATR
+     {IN
+      {Pl 2100 5450}
+      [Ly "CMPNAM"]
+      [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+      {Nl -100 -150}
+      {Un "Y"}
+     }
+     {EX
+      [Ly "ATTR"]
+      [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+      {At PRT E09.PRT -200 -250}
+      {At N 470 -125 -200}
+     }
+    }
+   }
+   {I RESV.SYM R5
+    {CN UN000009 UN000012}
+    {ASG A
+     [Ly "REFDES"]
+     [Ts 62][Tj "LC"][Tr 0][Tm "N"]
+     {Rd "R5" -175 -50}
+     [Ly "PINNUM"]
+     [Ts 37][Tj "RC"]
+     {Pn "1" -50 25}
+     {Pn "2" -300 25}
+    }
+    {ATR
+     {IN
+      {Pl 1775 5075}
+      {Ro 3}
+      [Ly "CMPNAM"]
+      [Ts 37][Tj "LB"][Tr 1][Tm "N"]
+      {Nl -175 50}
+      {Un "Y"}
+     }
+     {EX
+      [Ly "ATTR"]
+      [Ts 37][Tj "LB"][Tr 1][Tm "N"]
+      {At PRT E09.PRT -250 -75}
+      {At N 10k -100 50}
+     }
+    }
+   }
+   {I RESV.SYM R8
+    {CN POWER+ UN000023}
+    {ASG A
+     [Ly "REFDES"]
+     [Ts 62][Tj "LC"][Tr 0][Tm "N"]
+     {Rd "R8" 50 -175}
+     [Ly "PINNUM"]
+     [Ts 37][Tj "RC"]
+     {Pn "1" -25 -50}
+     {Pn "2" -25 -300}
+    }
+    {ATR
+     {IN
+      {Pl 3600 6675}
+      [Ly "CMPNAM"]
+      [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+      {Nl 50 -125}
+      {Un "Y"}
+     }
+     {EX
+      [Ly "ATTR"]
+      [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+      {At PRT E09.PRT 50 -300}
+      {At N 33 50 -250}
+     }
+    }
+   }
+   {I RESV.SYM R10
+    {CN UN000032 OUT-LOW}
+    {ASG A
+     [Ly "REFDES"]
+     [Ts 62][Tj "LC"][Tr 0][Tm "N"]
+     {Rd "R10" 50 -175}
+     [Ly "PINNUM"]
+     [Ts 37][Tj "RC"]
+     {Pn "1" -25 -50}
+     {Pn "2" -25 -300}
+    }
+    {ATR
+     {IN
+      {Pl 4350 5075}
+      [Ly "CMPNAM"]
+      [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+      {Nl 50 -125}
+      {Un "Y"}
+     }
+     {EX
+      [Ly "ATTR"]
+      [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+      {At PRT E09.PRT 50 -300}
+      {At N 300k 50 -250}
+     }
+    }
+   }
+   {I RESV.SYM R11
+    {CN UN000039 GND}
+    {ASG A
+     [Ly "REFDES"]
+     [Ts 62][Tj "LC"][Tr 0][Tm "N"]
+     {Rd "R11" 50 -175}
+     [Ly "PINNUM"]
+     [Ts 37][Tj "RC"]
+     {Pn "1" -25 -50}
+     {Pn "2" -25 -300}
+    }
+    {ATR
+     {IN
+      {Pl 5000 6000}
+      [Ly "CMPNAM"]
+      [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+      {Nl 50 -125}
+      {Un "Y"}
+     }
+     {EX
+      [Ly "ATTR"]
+      [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+      {At PRT E09.PRT 50 -300}
+      {At N 47k 50 -250}
+     }
+    }
+   }
+   {I RESV.SYM R15
+    {CN UN000051 GND}
+    {ASG A
+     [Ly "REFDES"]
+     [Ts 62][Tj "LC"][Tr 0][Tm "N"]
+     {Rd "R15" 50 -175}
+     [Ly "PINNUM"]
+     [Ts 37][Tj "RC"]
+     {Pn "1" -25 -50}
+     {Pn "2" -25 -300}
+    }
+    {ATR
+     {IN
+      {Pl 6325 4750}
+      [Ly "CMPNAM"]
+      [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+      {Nl 50 -150}
+      {Un "Y"}
+     }
+     {EX
+      [Ly "ATTR"]
+      [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+      {At PRT E10.PRT 50 -300}
+      {At N 1 50 -250}
+     }
+    }
+   }
+   {COMP_DEF X7CON.SYM
+    {PIN_DEF
+     [Ly "PINCON"]
+     {P 1 {Pt "I/O"}{Lq 0}{Ploc 0 0}}
+    }
+    {PKG
+     [Ly "REFDES"]
+     [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+     {Rdl 100 0}
+
+     [Ly "PINNUM"]
+     {Pnl 100 -50}
+
+     {Pid E13}
+     {Sd A 1}
+     {Sd B 2}
+     {Sd C 3}
+     {Sd D 4}
+     {Sd E 5}
+     {Sd F 6}
+     {Sd G 7}
+    }
+
+    {PIC
+     [Ly "GATE"]
+     [Ls "SOLID"][Wd 0]
+     [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+     {C 50 0 25}
+     {L 0 0 25 0}
+     [Ly "IEEE"]
+     {C 50 0 25}
+     {L 0 0 25 0}
+    }
+    {ATR
+     {IN
+      {Ty 255}
+     }
+    }
+   }
+   {I X7CON.SYM X1.7
+    {CN IN-HIGHT}
+    {ASG G
+     [Ly "REFDES"]
+     [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+     {Rd "X1" -100 0}
+     [Ly "PINNUM"]
+     {Pn "7" -100 50}
+    }
+    {ATR
+     {IN
+      {Pl 1000 5600}
+      {Ro 2}
+      [Ly "CMPNAM"]
+      [Ts 37][Tj "RT"][Tr 0][Tm "N"]
+      {Nl -250 0}
+      {Un "Y"}
+     }
+     {EX
+      [Ly "ATTR"]
+      [Ts 37][Tj "LB"][Tr 2][Tm "N"]
+      {At PRT E13.PRT -275 -75}
+     }
+    }
+   }
+   {I X7CON.SYM X1.6
+    {CN POWER+}
+    {ASG F
+     [Ly "REFDES"]
+     [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+     {Rd "X1" 0 100}
+     [Ly "PINNUM"]
+     {Pn "6" 50 100}
+    }
+    {ATR
+     {IN
+      {Pl 3600 6800}
+      {Ro 1}
+      [Ly "CMPNAM"]
+      [Ts 37][Tj "RT"][Tr 1][Tm "N"]
+      {Nl 50 75}
+      {Un "Y"}
+     }
+     {EX
+      [Ly "ATTR"]
+      [Ts 37][Tj "LB"][Tr 3][Tm "N"]
+      {At PRT E13.PRT 50 25}
+     }
+    }
+   }
+   {I X7CON.SYM X1.5
+    {CN TERMINAT}
+    {ASG E
+     [Ly "REFDES"]
+     [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+     {Rd "X1" -100 0}
+     [Ly "PINNUM"]
+     {Pn "5" -100 50}
+    }
+    {ATR
+     {IN
+      {Pl 1000 5075}
+      {Ro 2}
+      [Ly "CMPNAM"]
+      [Ts 37][Tj "RT"][Tr 0][Tm "N"]
+      {Nl -25 25}
+      {Un "Y"}
+     }
+     {EX
+      [Ly "ATTR"]
+      [Ts 37][Tj "LB"][Tr 2][Tm "N"]
+      {At PRT E13.PRT -25 -50}
+     }
+    }
+   }
+   {I X7CON.SYM X1.4
+    {CN C-SOUND}
+    {ASG D
+     [Ly "REFDES"]
+     [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+     {Rd "X1" 0 100}
+     [Ly "PINNUM"]
+     {Pn "4" 50 100}
+    }
+    {ATR
+     {IN
+      {Pl 2200 6800}
+      {Ro 1}
+      [Ly "CMPNAM"]
+      [Ts 37][Tj "RT"][Tr 1][Tm "N"]
+      {Nl 50 50}
+      {Un "Y"}
+     }
+     {EX
+      [Ly "ATTR"]
+      [Ts 37][Tj "LB"][Tr 3][Tm "N"]
+      {At PRT E13.PRT 50 0}
+     }
+    }
+   }
+   {I X7CON.SYM X1.3
+    {CN IN-LOW}
+    {ASG C
+     [Ly "REFDES"]
+     [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+     {Rd "X1" -100 0}
+     [Ly "PINNUM"]
+     {Pn "3" -100 50}
+    }
+    {ATR
+     {IN
+      {Pl 750 6100}
+      {Ro 2}
+      [Ly "CMPNAM"]
+      [Ts 37][Tj "RT"][Tr 0][Tm "N"]
+      {Nl -275 0}
+      {Un "Y"}
+     }
+     {EX
+      [Ly "ATTR"]
+      [Ts 37][Tj "LB"][Tr 2][Tm "N"]
+      {At PRT E13.PRT -200 -75}
+     }
+    }
+   }
+   {I X7CON.SYM X1.2
+    {CN SOUND}
+    {ASG B
+     [Ly "REFDES"]
+     [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+     {Rd "X1" 100 0}
+     [Ly "PINNUM"]
+     {Pn "2" 100 -50}
+    }
+    {ATR
+     {IN
+      {Pl 7125 6500}
+      [Ly "CMPNAM"]
+      [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+      {Nl 175 0}
+      {Un "Y"}
+     }
+     {EX
+      [Ly "ATTR"]
+      [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+      {At PRT E13.PRT 100 -100}
+     }
+    }
+   }
+   {I X7CON.SYM X1.1
+    {CN GND}
+    {ASG A
+     [Ly "REFDES"]
+     [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+     {Rd "X1" 0 -100}
+     [Ly "PINNUM"]
+     {Pn "1" -50 -100}
+    }
+    {ATR
+     {IN
+      {Pl 5950 4550}
+      {Ro 3}
+      [Ly "CMPNAM"]
+      [Ts 37][Tj "LB"][Tr 1][Tm "N"]
+      {Nl 50 -50}
+      {Un "Y"}
+     }
+     {EX
+      [Ly "ATTR"]
+      [Ts 37][Tj "LB"][Tr 1][Tm "N"]
+      {At PRT E13.PRT 50 -100}
+     }
+    }
+   }
+   {COMP_DEF XTAL.SYM
+    {PIN_DEF
+     [Ly "PINCON"]
+     {P 1 {Pt "I/O"}{Lq 1}{Ploc 0 0}}
+     {P 2 {Pt "I/O"}{Lq 1}{Ploc 350 0}}
+    }
+    {PKG
+     [Ly "REFDES"]
+     [Ts 62][Tj "CB"][Tr 0][Tm "N"]
+     {Rdl 175 87}
+
+     [Ly "PINNUM"]
+     [Ts 37][Tj "RC"]
+     {Pnl 50 25}
+     [Tj "LC"]
+     {Pnl 300 25}
+
+     {Pid XTAL}
+     {Sd A 1 2}
+    }
+
+    {PIC
+     [Ly "GATE"]
+     [Ls "SOLID"][Wd 0]
+     [Ts 37][Tj "LC"][Tr 0][Tm "N"]
+     {R 150 -62 200 62}
+     {L 0 0 125 0}
+     {L 350 0 225 0}
+     {L 125 50 125 -50}
+     {L 225 50 225 -50}
+     [Ly "IEEE"]
+     {R 150 -62 200 62}
+     {L 225 50 225 -50}
+     {L 125 50 125 -50}
+     {L 350 0 225 0}
+     {L 0 0 125 0}
+    }
+    {ATR
+     {IN
+      {Ty 255}
+     }
+    }
+   }
+   {I XTAL.SYM Z1
+    {CN UN000005 UN000007}
+    {ASG A
+     [Ly "REFDES"]
+     [Ts 62][Tj "CB"][Tr 0][Tm "N"]
+     {Rd "Z1" 175 87}
+     [Ly "PINNUM"]
+     [Ts 37][Tj "RC"]
+     {Pn "1" 50 25}
+     [Tj "LC"]
+     {Pn "2" 300 25}
+    }
+    {ATR
+     {IN
+      {Pl 1525 5725}
+      [Ly "CMPNAM"]
+      [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+      {Nl 225 100}
+      {Un "Y"}
+     }
+     {EX
+      [Ly "ATTR"]
+      [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+      {At PRT E15.PRT 250 25}
+     }
+    }
+   }
+   {I XTAL.SYM Z2
+    {CN UN000006 UN000007}
+    {ASG A
+     [Ly "REFDES"]
+     [Ts 62][Tj "CB"][Tr 0][Tm "N"]
+     {Rd "Z2" 175 87}
+     [Ly "PINNUM"]
+     [Ts 37][Tj "RC"]
+     {Pn "1" 50 25}
+     [Tj "LC"]
+     {Pn "2" 300 25}
+    }
+    {ATR
+     {IN
+      {Pl 1525 5475}
+      [Ly "CMPNAM"]
+      [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+      {Nl 150 -125}
+      {Un "Y"}
+     }
+     {EX
+      [Ly "ATTR"]
+      [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+      {At PRT E15.PRT 250 25}
+     }
+    }
+   }
+   {COMP_DEF X1CON.SYM
+    {PIN_DEF
+     [Ly "PINCON"]
+     {P 1 {Pt "I/O"}{Lq 0}{Ploc 0 0}}
+    }
+    {PKG
+     [Ly "REFDES"]
+     [Ts 62][Tj "LC"][Tr 0][Tm "N"]
+     {Rdl 87 -175}
+
+     [Ly "PINNUM"]
+     [Ts 37][Tj "RC"]
+     {Pnl -25 -50}
+
+     {Pid PIN}
+     {Sd A 1}
+    }
+
+    {PIC
+     [Ly "GATE"]
+     [Ls "SOLID"][Wd 0]
+     [Ts 37][Tj "RC"][Tr 0][Tm "N"]
+     {C 50 0 25}
+     {L 0 0 25 0}
+     [Ly "IEEE"]
+     {C 50 0 25}
+     {L 0 0 25 0}
+    }
+    {ATR
+     {IN
+      {Ty 255}
+     }
+    }
+   }
+   {I X1CON.SYM X1N
+    {CN OUT-LOW}
+    {ASG A
+     [Ly "REFDES"]
+     [Ts 62][Tj "LC"][Tr 0][Tm "N"]
+     {Rd "X1N" -175 -87}
+     [Ly "PINNUM"]
+     [Ts 37][Tj "RC"]
+     {Pn "1" -50 25}
+    }
+    {ATR
+     {IN
+      {Pl 4350 4500}
+      {Ro 3}
+      [Ly "CMPNAM"]
+      [Ts 37][Tj "LB"][Tr 1][Tm "N"]
+      {Nl 25 -25}
+      {Un "Y"}
+     }
+     {EX
+      [Ly "ATTR"]
+      [Ts 37][Tj "LB"][Tr 1][Tm "N"]
+      {At PRT E14.PRT 50 -75}
+     }
+    }
+   }
+   {COMP_DEF M12.SYM
+    {PIN_DEF
+     [Ly "PINCON"]
+     {P 1 {Pt "I/O"}{Lq 0}{Ploc 0 425}}
+     {P 2 {Pt "I/O"}{Lq 0}{Ploc 0 350}}
+     {P 3 {Pt "I/O"}{Lq 0}{Ploc 0 275}}
+     {P 4 {Pt "I/O"}{Lq 0}{Ploc 0 200}}
+     {P 5 {Pt "I/O"}{Lq 0}{Ploc 0 125}}
+     {P 6 {Pt "I/O"}{Lq 0}{Ploc 0 50}}
+     {P 7 {Pt "I/O"}{Lq 0}{Ploc 550 50}}
+     {P 8 {Pt "I/O"}{Lq 0}{Ploc 550 125}}
+     {P 9 {Pt "I/O"}{Lq 0}{Ploc 550 200}}
+     {P 10 {Pt "I/O"}{Lq 0}{Ploc 550 275}}
+     {P 11 {Pt "22"}{Lq 0}{Ploc 550 350}}
+     {P 12 {Pt "I/O"}{Lq 0}{Ploc 550 425}}
+    }
+    {PKG
+     [Ly "REFDES"]
+     [Ts 37][Tj "RC"][Tr 0][Tm "N"]
+     {Rdl 300 525}
+
+     [Ly "PINNUM"]
+     [Tj "RB"]
+     {Pnl 75 425}
+     {Pnl 75 350}
+     {Pnl 75 275}
+     {Pnl 75 200}
+     {Pnl 75 125}
+     {Pnl 75 50}
+     [Tj "LB"]
+     {Pnl 475 50}
+     {Pnl 475 125}
+     {Pnl 475 200}
+     {Pnl 475 275}
+     {Pnl 475 350}
+     {Pnl 475 425}
+
+     {Pid E20}
+     {Sd A 1 2 3 4 5 6 7 8 9 10 11 12}
+    }
+
+    {PIC
+     [Ly "IEEE"]
+     [Ls "SOLID"][Wd 0]
+     [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+     {L 475 425 550 425}
+     {L 475 350 550 350}
+     {L 475 275 550 275}
+     {L 475 200 550 200}
+     {L 475 125 550 125}
+     {L 475 50 550 50}
+     {R 75 0 475 475}
+     {L 0 425 75 425}
+     {L 0 350 75 350}
+     {L 0 275 75 275}
+     {L 0 200 75 200}
+     {L 0 125 75 125}
+     {L 0 50 75 50}
+     [Ly "PINNAM"]
+     [Tj "RC"]
+     {T "12" 450 425}
+     {T "11" 450 350}
+     {T "10" 450 275}
+     {T "9" 450 200}
+     {T "8" 450 125}
+     {T "7" 450 50}
+     [Tj "LC"]
+     {T "6" 100 50}
+     {T "5" 100 125}
+     {T "4" 100 200}
+     {T "3" 100 275}
+     {T "2" 100 350}
+     {T "1" 100 425}
+    }
+    {ATR
+     {IN
+      {Ty 10000}
+     }
+    }
+   }
+   {I M12.SYM D2
+    {CN UN000035 ? ? UN000047 UN000054 UN000043 UN000041 
+        UN000039 GND GND ? UN000049}
+    {ASG A
+     [Ly "REFDES"]
+     [Ts 37][Tj "RC"][Tr 0][Tm "N"]
+     {Rd "D2" 300 525}
+     [Ly "PINNUM"]
+     [Tj "RB"]
+     {Pn "1" 75 425}
+     {Pn "2" 75 350}
+     {Pn "3" 75 275}
+     {Pn "4" 75 200}
+     {Pn "5" 75 125}
+     {Pn "6" 75 50}
+     [Tj "LB"]
+     {Pn "7" 475 50}
+     {Pn "8" 475 125}
+     {Pn "9" 475 200}
+     {Pn "10" 475 275}
+     {Pn "11" 475 350}
+     {Pn "12" 475 425}
+    }
+    {ATR
+     {IN
+      {Pl 5600 5350}
+      [Ly "CMPNAM"]
+      [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+      {Nl 250 225}
+      {Un "Y"}
+     }
+     {EX
+      [Ly "ATTR"]
+      [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+      {At PRT E20.PRT 175 -50}
+     }
+    }
+   }
+   {COMP_DEF M14.SYM
+    {PIN_DEF
+     [Ly "PINCON"]
+     {P 1 {Pt "I/O"}{Lq 0}{Ploc 0 500}}
+     {P 2 {Pt "I/O"}{Lq 0}{Ploc 0 425}}
+     {P 3 {Pt "I/O"}{Lq 0}{Ploc 0 350}}
+     {P 4 {Pt "I/O"}{Lq 0}{Ploc 0 275}}
+     {P 5 {Pt "I/O"}{Lq 0}{Ploc 0 200}}
+     {P 6 {Pt "I/O"}{Lq 0}{Ploc 0 125}}
+     {P 7 {Pt "I/O"}{Lq 0}{Ploc 0 50}}
+     {P 8 {Pt "I/O"}{Lq 0}{Ploc 550 50}}
+     {P 9 {Pt "I/O"}{Lq 0}{Ploc 550 125}}
+     {P 10 {Pt "I/O"}{Lq 0}{Ploc 550 200}}
+     {P 11 {Pt "I/O"}{Lq 0}{Ploc 550 275}}
+     {P 12 {Pt "I/O"}{Lq 0}{Ploc 550 350}}
+     {P 13 {Pt "22"}{Lq 0}{Ploc 550 425}}
+     {P 14 {Pt "I/O"}{Lq 0}{Ploc 550 500}}
+    }
+    {PKG
+     [Ly "REFDES"]
+     [Ts 37][Tj "RC"][Tr 0][Tm "N"]
+     {Rdl 300 600}
+
+     [Ly "PINNUM"]
+     [Tj "RB"]
+     {Pnl 75 500}
+     {Pnl 75 425}
+     {Pnl 75 350}
+     {Pnl 75 275}
+     {Pnl 75 200}
+     {Pnl 75 125}
+     {Pnl 75 50}
+     [Tj "LB"]
+     {Pnl 475 50}
+     {Pnl 475 125}
+     {Pnl 475 200}
+     {Pnl 475 275}
+     {Pnl 475 350}
+     {Pnl 475 425}
+     {Pnl 475 500}
+
+     {Pid E21}
+     {Sd A 1 2 3 4 5 6 7 8 9 10 11 12 13 14}
+    }
+
+    {PIC
+     [Ly "IEEE"]
+     [Ls "SOLID"][Wd 0]
+     [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+     {L 475 500 550 500}
+     {L 475 425 550 425}
+     {L 475 350 550 350}
+     {L 475 275 550 275}
+     {L 475 200 550 200}
+     {L 475 125 550 125}
+     {L 0 500 75 500}
+     {L 0 425 75 425}
+     {L 0 350 75 350}
+     {L 0 275 75 275}
+     {L 0 200 75 200}
+     {L 0 125 75 125}
+     [Ly "PINNAM"]
+     [Tj "LC"]
+     {T "7" 100 50}
+     [Tj "RC"]
+     {T "8" 450 50}
+     {T "14" 450 500}
+     {T "13" 450 425}
+     {T "12" 450 350}
+     {T "11" 450 275}
+     {T "10" 450 200}
+     {T "9" 450 125}
+     [Tj "LC"]
+     {T "6" 100 125}
+     {T "5" 100 200}
+     {T "4" 100 275}
+     {T "3" 100 350}
+     {T "2" 100 425}
+     {T "1" 100 500}
+     [Ly "GATE"]
+     {R 75 0 475 550}
+     {L 0 50 75 50}
+     {L 550 50 475 50}
+    }
+    {ATR
+     {IN
+      {Ty 10000}
+     }
+    }
+   }
+   {I M14.SYM D1
+    {CN GND UN000011 UN000003 UN000015 UN000021 ? UN000028 
+        UN000037 UN000029 ? UN000023 UN000032 UN000009 UN000007}
+    {ASG A
+     [Ly "REFDES"]
+     [Ts 37][Tj "RC"][Tr 0][Tm "N"]
+     {Rd "D1" 300 600}
+     [Ly "PINNUM"]
+     [Tj "RB"]
+     {Pn "1" 75 500}
+     {Pn "2" 75 425}
+     {Pn "3" 75 350}
+     {Pn "4" 75 275}
+     {Pn "5" 75 200}
+     {Pn "6" 75 125}
+     {Pn "7" 75 50}
+     [Tj "LB"]
+     {Pn "8" 475 50}
+     {Pn "9" 475 125}
+     {Pn "10" 475 200}
+     {Pn "11" 475 275}
+     {Pn "12" 475 350}
+     {Pn "13" 475 425}
+     {Pn "14" 475 500}
+    }
+    {ATR
+     {IN
+      {Pl 2875 5325}
+      [Ly "CMPNAM"]
+      [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+      {Nl 250 250}
+      {Un "Y"}
+     }
+     {EX
+      [Ly "ATTR"]
+      [Ts 37][Tj "LB"][Tr 0][Tm "N"]
+      {At PRT E21.PRT 200 -50}
+     }
+    }
+   }
+  }
+ }
+}
